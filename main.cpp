@@ -7,6 +7,9 @@
 #include <fileapi.h>
 #include "zstd.h"
 #include "zlib.h"
+#include <io.h>
+#include <direct.h>
+#include <string>
 
 #pragma comment(lib,"libzstd.lib")
 #pragma comment(lib,"zlib.lib")
